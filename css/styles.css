@@ -14,6 +14,14 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--color1);
 }
+h1,
+h2,
+h3,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -22,11 +30,11 @@ body {
   margin-right: auto;
 }
 .header {
-  margin: 0;
-  padding: 0;
   border-bottom: 1px solid #e7e9fc;
 }
-navig-header {
+.navigation-header {
+  display: flex;
+  gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -95,10 +103,12 @@ span.studiolog {
   color: var(--color5);
   letter-spacing: 0.02em;
   line-height: 1.07;
-  margin: 0;
   text-align: center;
+  margin-bottom: 48px;
+}
+.section-hero {
   padding-top: 188px;
-  padding-bottom: 48px;
+  padding-bottom: 292px;
 }
 .button {
   background-color: var(--color3);
@@ -117,11 +127,7 @@ span.studiolog {
   padding-right: 32px;
   justify-content: center;
 }
-.hero-container {
-  height: 600px;
-  justify-content: center;
-  align-items: center;
-}
+
 .button:hover {
   background-color: var(--color4);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -138,28 +144,34 @@ span.studiolog {
   padding: 0;
   gap: 24px;
 }
-.iteam {
-  flex-basis: calc(100% / 4);
+.section-text {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.iteam {
+  flex-basis: calc(100% / 4);
+}
 .picture {
-  margin-top: 72px;
-  margin-bottom: 240px;
   display: flex;
   flex-direction: row;
   gap: 24px;
-  max-width: 100%;
-  padding: 0;
+}
+.our-action {
+  padding-top: 72px;
+  padding-bottom: 120px;
+}
+.our-team {
+  padding-top: 72px;
+  padding-bottom: 120px;
+  background-color: #f4f4fd;
 }
 .second-picture {
   margin-top: 72px;
-  margin-bottom: 120px;
+
   display: flex;
   flex-direction: row;
   gap: 24px;
   max-width: 100%;
-  padding: 0;
 }
 .teams {
   padding: top 16px;
@@ -170,8 +182,8 @@ span.studiolog {
   text-align: center;
 }
 .card-content {
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -200,7 +212,6 @@ span.studiolog {
   margin: 0;
   padding-top: 100px;
   padding-bottom: 100px;
-  margin-top: 120px;
 }
 .subfooter {
   color: var(--color6);
@@ -255,21 +266,22 @@ span.type {
   flex-direction: row;
   gap: 24px;
   justify-content: center;
-  padding: 0;
-  border: 0;
-  margin-top: 96px;
   margin-bottom: 72px;
+}
+.buttons-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .card-images {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-
-  padding: 0;
-  margin: 0;
   flex-basis: calc(100% / 3);
 }
 .second-card-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #ffffff;
   border: 1px solid #e7e9fc;
-  margin-bottom: 48px;
+  border-top: none;
 }
