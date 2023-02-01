@@ -280,14 +280,15 @@ span.type {
 .card-images {
   display: flex;
   gap: 24px;
+
   flex-wrap: wrap;
   flex-basis: calc(100% / 3);
 }
 .second-card-content {
   padding-top: 32px;
   padding-bottom: 32px;
+  margin-bottom: 24px;
   padding-left: 16px;
-
   background-color: #ffffff;
   border: 1px solid #e7e9fc;
   border-top: none;
