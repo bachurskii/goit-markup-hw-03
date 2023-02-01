@@ -108,7 +108,7 @@ span.studiolog {
 }
 .section-hero {
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
 }
 .button {
   background-color: var(--color3);
@@ -126,6 +126,7 @@ span.studiolog {
   padding-left: 32px;
   padding-right: 32px;
   justify-content: center;
+  border: none;
 }
 
 .button:hover {
@@ -157,8 +158,10 @@ span.studiolog {
   gap: 24px;
 }
 .our-action {
-  padding-top: 72px;
   padding-bottom: 120px;
+}
+.title-action {
+  padding-bottom: 72px;
 }
 .our-team {
   padding-top: 72px;
@@ -175,7 +178,7 @@ span.studiolog {
 }
 .teams {
   padding: top 16px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   text-align: center;
 }
 .teams-indent {
@@ -202,6 +205,7 @@ span.studiolog {
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-size: 20px;
+  margin-bottom: 8px;
 }
 .indent {
   line-height: 1.5;
@@ -217,6 +221,7 @@ span.studiolog {
   color: var(--color6);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 16px;
 }
 
 .footerlogo {
@@ -281,7 +286,17 @@ span.type {
 .second-card-content {
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
+
   background-color: #ffffff;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+.title-port {
+  margin-bottom: 8px;
+}
+.img-portfolio {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
