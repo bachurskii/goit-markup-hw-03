@@ -300,5 +300,5 @@ span.type {
   height: auto;
 }
 .cards-teams {
-  flex-basis: auto;
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
